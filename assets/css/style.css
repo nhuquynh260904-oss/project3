@@ -619,3 +619,38 @@ header {
 .blog-item__more:hover {
   color: #2e80ce;
 }
+
+/* ==========================APPOINTMENT========================= */
+.appointment {
+  margin: 85px 0;
+}
+
+.appointment__inner {
+  background: #f6fbff;
+  text-align: center;
+  padding: 100px 178px;
+}
+
+.appointment__heading::after {
+  content: "";
+  width: 136px;
+  height: 2px;
+  background: #2E80CE;
+  display: block;
+  position: relative;
+  margin: 18px auto 0;
+}
+
+.appointment__dess {
+  color: #575f66;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+  margin: 18px auto 0;
+  max-width: 617px;
+}
+
+.appointment__btn{
+  margin-top: 38px;
+}
